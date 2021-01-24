@@ -1,0 +1,970 @@
+/*
+===============
+GLOBAL STYLE
+===============
+*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.main-container{
+    height: 7900px;
+    width: 100%;
+    background-color: rgb(107, 107, 107);
+}
+
+
+/*
+==============
+Header
+==============
+*/
+
+.header{
+    height: 0.86%;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+}
+
+.f-icon{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 14px;
+    border-radius: 100px;
+}
+.f-icon:hover .f{
+    color: greenyellow;
+}
+
+.f{
+    float: left;
+    margin-left: 35%;
+    margin-top: 10%;
+    color: rgb(216, 216, 216);
+}
+
+
+.tw-icon{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    float: left;
+    margin-left: 14px;
+    margin-top: 14px;
+    border-radius: 100px;
+}
+.tw-icon:hover .tw{
+    color: greenyellow;
+}
+
+.tw{
+    float: left;
+    margin-left: 20%;
+    margin-top: 18%;
+    color: rgb(216, 216, 216);
+}
+
+
+.g-icon{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    float: left;
+    margin-left: 14px;
+    margin-top: 14px;
+    border-radius: 100px;
+}
+.g-icon:hover .g{
+    color: greenyellow;
+}
+
+.g{
+    float: left;
+    margin-left: 20%;
+    margin-top: 12%;
+    color: rgb(216, 216, 216);
+}
+
+
+.in-icon{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    float: left;
+    margin-left: 14px;
+    margin-top: 14px;
+    border-radius: 100px;
+}
+.in-icon:hover .in{
+    color: greenyellow;
+}
+
+.in{
+    float: left;
+    margin-left: 26%;
+    margin-top: 18%;
+    color: rgb(216, 216, 216);
+}
+
+
+.tube-icon{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    float: left;
+    margin-left: 14px;
+    margin-top: 14px;
+    border-radius: 100px;
+}
+.tube-icon:hover .tube{
+    color: greenyellow;
+}
+
+.tube{
+    float: left;
+    margin-left: 10%;
+    margin-top: 18%;
+    color: rgb(216, 216, 216);
+}
+
+.phone1{
+    height: 34px;
+    width: 180px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: white;
+}
+
+
+.phone2{
+    height: 34px;
+    width: 180px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 16px;
+    color: white;
+}
+
+.call-me-back{
+    background-color: rgb(169, 231, 46);
+    float: right;
+    margin-top: 14px;
+    margin-right: 50px;
+}
+.call-me-back:hover{
+    background-color: rgb(145, 200, 34);
+}
+
+
+
+/*
+==============
+Nav bar
+==============
+*/
+
+
+nav{
+    height: 1.62%;
+    width: 100%;
+    background-color: white;
+}
+
+.logo{
+    float: left;
+    margin-left: 32px;
+    margin-top: 6px;
+}
+
+.nav-bar{
+    float: right;
+    margin-top: 44px;
+    margin-right: 26px;
+    list-style-type: none;
+
+}
+.nav-bar-li{
+    float: left;
+    padding-bottom: 10px;
+    margin-right: 22px;
+    font-size: 23px;  
+    
+}
+.nav-bar-li:hover{
+    border-bottom: solid rgb(255, 208, 0) 8px;
+    font-weight: bold;
+}
+
+
+
+
+/*
+==============
+Our Advantages
+==============
+*/
+
+
+.advantades{
+    height: 8.6%;
+    width: 100%;
+    background-color: white;
+
+}
+.advsection{
+    width: 750px;
+    float: left;
+    margin-left: 590px;
+    margin-top: 50px;
+}
+.adv1{
+    float: left;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.adv2{
+    float: left;
+    margin-left: 20px;
+    color:  #8dc63f ;
+    font-weight: bold;
+    font-size: 60px;
+}
+.adv3{
+    float: left;
+    color: rgb(148, 148, 148);
+}
+.adv4{
+    float: left;
+    color: rgb(148, 148, 148);
+    margin-top: -18px;
+    margin-left: 76px;
+}
+
+.support{
+    height: 350px;
+    width: 320px;
+    margin-top: 252px;
+    float: right;
+    margin-right: 51px;
+}
+.happy-clients{
+    height: 350px;
+    width: 320px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 51px;
+
+    
+}
+
+.experience{
+
+    height: 350px;
+    width: 320px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 51px;
+
+}
+
+.quality{
+
+    height: 350px;
+    width: 320px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 51px;
+
+
+}
+
+.inovation{
+    height: 350px;
+    width: 320px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 51px;
+
+}
+
+
+
+/*
+==============
+About Us
+==============
+*/
+
+.about{
+    height: 8.8%;
+    width: 100%;
+    background-image: url(./our\ dged.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.abosection{
+    width: 750px;
+    float: left;
+    margin-left: 720px;
+    margin-top: 50px;
+}
+.abo1{
+    float: left;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.abo2{
+    float: left;
+    margin-left: 20px;
+    color:  #8dc63f ;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.aboutdetial{
+    height: 500px;
+    width: 750px;
+    float: left;
+    margin-left: 100px;
+}
+
+
+
+/*
+==============
+Oue Services
+==============
+*/
+
+
+.services{
+    height: 8.5%;
+    width: 100%;
+    background-color: white;
+
+}
+
+.sersection{
+    width: 750px;
+    float: left;
+    margin-left: 590px;
+    margin-top: 50px;
+}
+.ser1{
+    float: left;
+    margin-left: 130px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.ser2{
+    float: left;
+    margin-left: 20px;
+    color:  #8dc63f ;
+    font-weight: bold;
+    font-size: 60px;
+}
+.ser3{
+    float: left;
+    color: rgb(148, 148, 148);
+}
+.ser4{
+    float: left;
+    color: rgb(148, 148, 148);
+    margin-top: -18px;
+    margin-left: 76px;
+}
+
+.marketing{
+    height: 320px;
+    width: 380px;
+    float: right;
+    margin-top: 280px;
+    margin-right: 110px;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 8px;
+
+
+}
+
+.branding{
+    height: 320px;
+    width: 380px;
+    float: right;
+    margin-top: 87px;
+    margin-right: 50px;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 8px;
+
+}
+
+.graphic-design{
+    height: 320px;
+    width: 380px;
+    float: right;
+    margin-top: 87px;
+    margin-right: 50px;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 8px;
+
+}
+
+.web-design{
+    height: 320px;
+    width: 380px;
+    float: right;
+    margin-top: 87px;
+    margin-right: 50px;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 8px;
+
+}
+
+
+
+/*
+==============
+Our portfolio
+==============
+*/
+
+
+
+.portfolio{
+    height: 11.4%;
+    width: 100%;
+    background-color: rgb(31 31 31);
+
+}
+
+
+.porsection{
+    width: 750px;
+    float: left;
+    margin-left: 590px;
+    margin-top: 50px;
+}
+.por1{
+    float: left;
+    margin-left: 130px;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+.por2{
+    float: left;
+    margin-left: 20px;
+    color:  #8dc63f ;
+    font-weight: bold;
+    font-size: 60px;
+}
+.por3{
+    float: left;
+    color: rgb(148, 148, 148);
+}
+.por4{
+    float: left;
+    color: rgb(148, 148, 148);
+    margin-top: -18px;
+    margin-left: 76px;
+}
+
+.portfolio-menu{
+    float: left;
+    list-style-type: none;
+    margin-left: 500px;
+    margin-top: 18px;
+}
+.porli{
+    float: left;
+    margin-left: 34px;
+    font-size: 18px;
+}
+
+.pora{
+    color: white;
+}
+.pora:hover{
+    color: rgb(255, 208, 0);
+}
+
+
+/*
+==============
+Our Process
+==============
+*/
+
+
+.process{
+    height: 8.5%;
+    width: 100%;
+    background-color: white;
+}
+.prosection{
+    width: 750px;
+    float: left;
+    margin-left: 590px;
+    margin-top: 50px;
+}
+.pro1{
+    float: left;
+    margin-left: 140px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.pro2{
+    float: left;
+    margin-left: 20px;
+    color:  #8dc63f ;
+    font-weight: bold;
+    font-size: 60px;
+}
+.pro3{
+    float: left;
+    color: rgb(148, 148, 148);
+}
+.pro4{
+    float: left;
+    color: rgb(148, 148, 148);
+    margin-top: -18px;
+    margin-left: 76px;
+}
+
+.request-call{
+    height: 150px;
+    width: 220px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 150px;
+    text-align: center;
+}
+.consutation{
+    height: 150px;
+    width: 220px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 56px;
+    text-align: center;
+
+}
+.planning{
+    height: 150px;
+    width: 220px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+    text-align: center;
+
+}
+.work-process{
+    height: 150px;
+    width: 260px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+
+}
+.correcting{
+    height: 150px;
+    width: 220px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 44px;
+    text-align: center;
+
+}
+.deliver{
+    height: 150px;
+    width: 220px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 62px;
+    text-align: center;
+
+}
+
+
+
+/*
+================
+People About Us
+================
+*/
+
+
+.people-about{
+    height: 9.5%;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+.peoplesection{
+    width: 750px;
+    float: left;
+    margin-left: 590px;
+    margin-top: 50px;
+}
+.people1{
+    float: left;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.people2{
+    float: left;
+    margin-left: 20px;
+    color:  #8dc63f ;
+    font-weight: bold;
+    font-size: 60px;
+}
+.people3{
+    float: left;
+    color: rgb(148, 148, 148);
+}
+.people4{
+    float: left;
+    color: rgb(148, 148, 148);
+    margin-top: -18px;
+    margin-left: 76px;
+}
+
+.box1{
+    height: 240px;
+    width: 850px;
+    float: left;
+    margin-left: 108px;
+    margin-top: 20px;
+    border-right: solid 2px rgb(187, 187, 187);
+}
+
+.box2{
+    height: 240px;
+    width: 850px;
+    float: left;
+    margin-top: 20px;
+
+
+}
+.box3{
+    height: 240px;
+    width: 850px;
+    float: left;
+    margin-left: 108px;
+    border-right: solid 2px rgb(187, 187, 187);
+    border-top: solid 2px rgb(187, 187, 187);
+
+}
+
+.box4{
+    height: 240px;
+    width: 850px;
+    float: left;
+    border-top: solid 2px rgb(187, 187, 187);
+
+}
+
+
+
+/*
+================
+Our Skills
+================
+*/
+
+
+.skills{
+    height: 8.6%;
+    width: 100%;
+    background-color: white;
+}
+.skillssection{
+    width: 750px;
+    float: left;
+    margin-left: 590px;
+    margin-top: 50px;
+}
+.skills1{
+    float: left;
+    margin-left: 180px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.skills2{
+    float: left;
+    margin-left: 20px;
+    color:  #8dc63f ;
+    font-weight: bold;
+    font-size: 60px;
+}
+.skills3{
+    float: left;
+    color: rgb(148, 148, 148);
+}
+.skills4{
+    float: left;
+    color: rgb(148, 148, 148);
+    margin-top: -18px;
+    margin-left: 76px;
+}
+
+
+
+/*
+========================
+Start Your New Projects
+========================
+*/
+
+
+
+.new-projects{
+    height: 5.8%;
+    width: 100%;
+    background-color: rgb(141 198 63);
+}
+
+
+
+/*
+============
+Our Contact
+============
+*/
+
+
+.contact{
+    height: 4.6%;
+    width: 100%;
+    background-color: white;
+}
+
+.consection{
+    width: 750px;
+    float: left;
+    margin-left: 590px;
+    margin-top: 50px;
+}
+.con1{
+    float: left;
+    margin-left: 156px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.con2{
+    float: left;
+    margin-left: 20px;
+    color:  #8dc63f ;
+    font-weight: bold;
+    font-size: 60px;
+}
+.con3{
+    float: left;
+    color: rgb(148, 148, 148);
+}
+.con4{
+    float: left;
+    color: rgb(148, 148, 148);
+    margin-top: -18px;
+    margin-left: 76px;
+}
+
+
+/*
+============
+Map Section
+============
+*/
+
+
+.map{
+    height: 6.7%;
+    width: 100%;
+    background-color: white;
+}
+
+
+/*
+============
+Footer Section
+============
+*/
+
+
+.footer{
+    height: 7.1%;
+    width: 100%;
+    background-color: #75951d;
+}
+
+.footer-logo{
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 90px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.footer-service{
+    height: 400px;
+    width: 340px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 200px;
+    color: white;
+    border-right: solid 2px  #8dc63f;
+}
+.footer-link{
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 70px;
+    color: white;
+    border-right: solid 2px  #8dc63f;
+
+}
+.footer-contact{
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 70px;
+    color: white;
+}
+
+
+
+.f-icon2{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    float: left;
+    margin-top: 16px;
+    border-radius: 100px;
+}
+.f-icon2:hover .f2{
+    color: greenyellow;
+}
+
+.f2{
+    float: left;
+    margin-left: 35%;
+    margin-top: 10%;
+    color: rgb(216, 216, 216);
+}
+
+
+.tw-icon2{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    float: left;
+    margin-left: 14px;
+    margin-top: 16px;
+    border-radius: 100px;
+}
+.tw-icon2:hover .tw2{
+    color: greenyellow;
+}
+
+.tw2{
+    float: left;
+    margin-left: 20%;
+    margin-top: 18%;
+    color: rgb(216, 216, 216);
+}
+
+
+.g-icon2{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    float: left;
+    margin-left: 14px;
+    border-radius: 100px;
+    margin-top: 16px;
+
+}
+.g-icon2:hover .g2{
+    color: greenyellow;
+}
+
+.g2{
+    float: left;
+    margin-left: 20%;
+    margin-top: 12%;
+    color: rgb(216, 216, 216);
+}
+
+
+.in-icon2{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    float: left;
+    margin-left: 14px;
+    border-radius: 100px;
+    margin-top: 16px;
+
+}
+.in-icon2:hover .in2{
+    color: greenyellow;
+}
+
+.in2{
+    float: left;
+    margin-left: 26%;
+    margin-top: 18%;
+    color: rgb(216, 216, 216);
+}
+
+
+.tube-icon2{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    float: left;
+    margin-left: 14px;
+    border-radius: 100px;
+    margin-top: 16px;
+
+}
+.tube-icon2:hover .tube2{
+    color: greenyellow;
+}
+
+.tube2{
+    float: left;
+    margin-left: 10%;
+    margin-top: 18%;
+    color: rgb(216, 216, 216);
+}
